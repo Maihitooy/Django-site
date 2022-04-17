@@ -1,0 +1,360 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0; /* Убираем для body отступы */
+	margin: 0; /* Убираем для body отступы */
+	overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900; /* Задание толщины шрифта */
+}
+
+p {
+	line-height: 1.65em; /* Расстояние между строками */
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto; /* Контейнер автоматически всегда будет находиться по середине */
+}
+
+.header {
+    /* Создание градиента с помощью онлайн сервиса */
+	background: rgba(250,182,153,1);
+    background: -moz-linear-gradient(left, rgba(250,182,153,1) 0%, rgba(255,165,189,1) 51%, rgba(239,168,251,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250,182,153,1)), color-stop(51%, rgba(255,165,189,1)), color-stop(100%, rgba(239,168,251,1)));
+    background: -webkit-linear-gradient(left, rgba(250,182,153,1) 0%, rgba(255,165,189,1) 51%, rgba(239,168,251,1) 100%);
+    background: -o-linear-gradient(left, rgba(250,182,153,1) 0%, rgba(255,165,189,1) 51%, rgba(239,168,251,1) 100%);
+    background: -ms-linear-gradient(left, rgba(250,182,153,1) 0%, rgba(255,165,189,1) 51%, rgba(239,168,251,1) 100%);
+    background: linear-gradient(to right, rgba(250,182,153,1) 0%, rgba(255,165,189,1) 51%, rgba(239,168,251,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fab699', endColorstr='#efa8fb', GradientType=1 );
+    
+	padding-top: 100px; /* Отступ сверху для heder */
+	padding-bottom: 225px;
+	color: #000;
+}
+
+.header_logo_menu {
+    display: flex;
+    justify-content: space-between; /* Прижатие элементов по краям */
+}
+
+.header_menu {
+    display: flex;
+    
+}
+
+.header_menu p {
+    padding-left: 80px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between; /* Прижатие элементов по краям */
+}
+
+.offer {
+	margin-top: 176px; /* Отступ от логотипа */
+	width: 490px;
+}
+
+.title {
+	font-size: 36px;
+}
+
+.title span {
+	color: #34b1e7;
+}
+
+.intro {
+	margin-bottom: 37px;
+	margin-top: 30px;
+	width: 380px; /* Длина текстового описания под заголовком */
+}
+
+.btn {
+    /* Основное оформление для кнопки */
+	font-family: 'Montserrat', sans-serif;
+	background: #E54481;
+	color: #fff;
+	border-radius: 100px;
+	display: block;
+	width: 205px;
+	padding: 19px 0; /* Отступы внутри кнопки сверху и снизу*/
+	text-align: center;
+	text-decoration: none; /* Убираем подчеркивание у тега a */
+    
+	transition: all 0.5s ease;
+    
+    /* Создание градиента для кнопки */
+   /* background: -moz-linear-gradient(-45deg, rgba(229, 68, 129, 1) 0%, rgba(211, 13, 192, 1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(229, 68, 129, 1)), color-stop(100%, rgba(211, 13, 192, 1)));
+	background: -webkit-linear-gradient(-45deg, rgba(229, 68, 129, 1) 0%, rgba(211, 13, 192, 1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(229, 68, 129, 1) 0%, rgba(211, 13, 192, 1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(229, 68, 129, 1) 0%, rgba(211, 13, 192, 1) 100%);
+	background: linear-gradient(135deg, rgba(229, 68, 129, 1) 0%, rgba(211, 13, 192, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E54481', endColorstr='#D30DC0', GradientType=1 );*/
+}
+
+
+
+
+
+.btn:hover { /* Цвет текста при наведении */
+	background: rgba(211, 13, 192, 1);
+}
+
+.picture {
+	margin-top: 150px;
+    width: 50%;
+}
+
+.learn {
+	padding-top: 108px;
+	padding-bottom: 0px;
+}
+
+.learn-rate{
+    padding-top: 108px;
+    padding-bottom: 108px; 
+}
+
+.section-title {
+	font-size: 30px;
+}
+
+.section-title-h2{
+    font-size: 30px;
+    text-align: center;
+}
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+.skill {
+	width: 350px;
+	background: url('../images/book%20(2).png') no-repeat left top;
+    background-size: 100px;
+	padding-left: 100px;
+}
+
+.skill-title {
+	font-size: 18px;
+}
+
+.skill-text {
+	margin-top: 7px;
+}
+
+.skill-free {
+	width: 380px;
+	background: url('../images/assistent.png') no-repeat left top;
+    background-size: 80px;
+}
+
+.skill-change {
+	background: url('../images/pig.png') no-repeat left top;
+    background-size: 90px;
+}
+
+.program-container{
+    margin: 0 auto;
+    background-size: 100px;
+}
+
+.program{
+    border: 2px solid #e34761;
+    margin: 15px 0;
+    padding: 0 100px;
+    text-align: center;
+    background: #E54481;
+	color: #fff;
+	border-radius: 100px;
+    transition: all 0.5s ease;
+}
+.program:hover { /* Цвет текста при наведении */
+	background: rgba(211, 13, 192, 1);
+}
+
+.feedback{
+    display: flex;
+    
+}
+
+.feedback-text{
+    width: 70%;
+    margin: 100px 30px;
+}
+
+.img-feedback{
+    width: 30%;
+    border-radius: 100px;
+}
+
+.colomn {
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid #e34761;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.colomn-title {
+	margin: 50px;
+    height: 50px;
+}
+
+.colomn-text {
+	margin: auto;
+    height: 150px;
+}
+
+.btn_colomn{
+    font-family: 'Montserrat', sans-serif;
+	background: #E54481;
+	color: #fff;
+	border-radius: 100px;
+	display: block;
+	width: 205px;
+	padding: 19px 0; /* Отступы внутри кнопки сверху и снизу*/
+	text-align: center;
+	text-decoration: none; /* Убираем подчеркивание у тега a */
+    margin: auto;
+	transition: all 0.5s ease; 
+}
+
+.btn_colomn:hover{
+    background: red;
+}
+
+.mail {
+	background: #efecf4;
+	padding-top: 173px;
+	padding-bottom: 190px;
+}
+
+.form {
+	margin-top: 40px;
+    text-align: right;
+}
+
+.input {
+    
+    margin-bottom: 20px;
+	width: 474px;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 100px;
+	height: 54px;
+	padding-left: 38px;
+}
+
+.btn-form {
+	border: 0;
+	cursor: pointer;
+	display: inline;
+	margin-left: 11px;
+}
+
+.footer {
+	padding: 33px 0;
+	background: #201b2d;
+}
+
+.credits {
+	color: #d4cee3;
+	font-size: 14px;
+	margin: 0;
+}
+
+.red {
+	color: red;
+}
+
+.animated {
+	opacity: 0;
+}
+
+
+/*Адаптивность (диапазоны, как в бутстрапе)
+От большего к меньше (от desktop версии к мобильной)*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+    .picture {
+        margin-top: 50px;
+        width: 100%;
+    }
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: auto;
+	}
+	.desktop {
+		display: block;
+	    width: 549px;
+	    margin: 72px auto 0;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 30px;
+	}
+    .colomn{
+        margin-bottom: 30px;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.desktop {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn {
+		margin-left: 0;
+	    margin-top: 15px;
+	    width: 100%;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
